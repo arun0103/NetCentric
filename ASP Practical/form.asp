@@ -1,3 +1,5 @@
+<!-- Form that collects the contact information (Fname, Lname, Address, phoneno, mobileno, email, 
+skype, facebookid, twitterid) these information needs to be saved in the text file delimited by ";" -->
 <html>
 	<head>
 		<title>Forms</title>
@@ -29,7 +31,7 @@
 			f.write(request.querystring("email")&";")
 			f.write(request.querystring("skype")&";")
 			f.write(request.querystring("facebookId")&";")
-			f.write(request.querystring("twitterId")&":")
+			f.write(request.querystring("twitterId")&":\n")
 			%>
 	</body>
 	</html>
