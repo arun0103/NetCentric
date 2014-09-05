@@ -1,3 +1,5 @@
+<!-- Parse the string and separate out the Name, Address and DOB and write them from the following text ="Ram Nepal;Kuleshwor Kathmandu;1st Baishak 2040"
+Hint: InStr([start,]string1,string2[,compare]), Mid(string,start[,length]) -->
 <%
 	dim input
 	input = "Ram Nepal;Kuleshwor Kathmandu;1st Baishak 2040"
