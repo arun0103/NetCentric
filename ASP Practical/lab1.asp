@@ -1,3 +1,6 @@
+<!-- Random Greeting Only After 8:00 AM
+Hint : Hour(NOW), Int(Rnd * 4), Select Case item...Case 0, 1,2,3 ..End Select -->
+
 <%
 dim time
 					dim num
