@@ -1,3 +1,5 @@
+<!-- Creating array to store 5 fruits, iterate the array and write them. 
+Then add one new item in existing array and again iterate the array and write the items.  -->
 <html>
 	<head>
 		<title>MY ASP Practical</title>

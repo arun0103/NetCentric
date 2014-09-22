@@ -1,3 +1,5 @@
+<!-- Convert the variable to another type and print the type name and the value of converted type.
+Hint: TypeName, CInt, CStr, CDbl -->
 <%
 	dim a
 	a=0
