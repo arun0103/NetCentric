@@ -1,0 +1,19 @@
+<script language="vbscript" runat="server">
+
+sub Application_OnStart
+	dim name
+	Application("name")="Arun"
+	Application("contact")="9841973742"
+	Application("visitorCount")=0
+	
+end sub
+
+sub Application_OnEnd
+	
+end sub
+
+sub Session_OnStart
+	Application("visitorCount")= Application("visitorCount") +1
+end sub
+
+</script>

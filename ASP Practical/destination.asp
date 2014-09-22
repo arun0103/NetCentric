@@ -1,0 +1,31 @@
+<!-- Create the page that has the Select Option that lists the holiday destination.
+User can select multiple destination. Displays the selected destination on another page when user clicks the submit button -->
+
+<html>
+	<head>
+		<title>ASP practical</title>
+	</head>
+	<body>
+		<form method="get" action="selectedDestination.asp">
+			<p>Please choose destination you would like to visit on your next holiday</p>
+			<select name="destinations" multiple>
+				<option>Paris</option>
+				<option>Switzerland</option>
+				<option>England</option>
+				<option>Russia</option>
+				<option>Dubai</option>
+				<option>Qatar</option>
+				<option>Malaysia</option>
+				<option>Pokhara,Nepal</option>
+				<option>Darjeeling</option>
+			</select>
+			<input type="submit" value="Submit"/>
+		</form>
+		<%
+			dim destinationSelected(8)
+			destinationSelected(0) = request.form("destinations")
+			response.write("Selected destinations are: "+destinationSelected(0))
+
+		%>
+	</body>
+</html>
