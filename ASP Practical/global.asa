@@ -13,7 +13,9 @@ sub Application_OnEnd
 end sub
 
 sub Session_OnStart
+	Application.Lock
 	Application("visitorCount")= Application("visitorCount") +1
+	Application.Unlock
 end sub
 
 </script>
